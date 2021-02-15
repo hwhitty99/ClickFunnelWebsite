@@ -1,0 +1,178 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+@media (min-width: 768px) {
+	.ps-md-3 {
+		padding-left: 0rem!important;
+	}
+}
+@media (min-width: 768px) {
+	.my-md-3 {
+		margin-top: 0rem!important;
+		margin-bottom: 0rem!important;
+	}
+}
+
+@media (min-width: 768px) {
+	.d-md-flex {
+		display: flex!important;
+	}
+}
+
+@media (min-width: 768px) {
+	.p-md-5 {
+		padding: 1rem!important;
+	}
+}
+@media (min-width: 768px) {
+	.m-md-3 {
+		margin: 0rem!important;
+	}
+}
+
+.w-100 {
+		width: 100%!important;
+	}
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+.btn-outline-secondary {
+    color: #fff;
+    background-color: #f00;
+	border-width: 0px;
+}
+
+.site-header {
+	color: #000;
+	background-color: #f00;
+}
+
+.site-header a {
+	color: #fff;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+_________________________________________
+
+.container {
+  max-width: 960px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f00;
+    border-color: #f00;
+}
+
+.form-check-input:checked {
+    background-color: #f00;
+    border-color: #f00;
+}
+
+a {
+    color: #f00;
+    text-decoration: underline;
+}
+
+.bg-red {
+	background-color: #f00;
+}
+
+.btn-white {
+    color: #000;
+    background-color: #fff;
+	transition: color .5s ease-in-out,background-color .5s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
+}
+
+.btn-white:hover {
+    color: #000;
+    background-color: #fff;
+	box-shadow: 5px 5px 15px #850000;
+	transition: color .5s ease-in-out,background-color .5s ease-in-out,border-color .15s ease-in-out,box-shadow .5s ease-in-out;
+}
+
+}
+
+.left-nav-container {
+	display: flex;
+	flex-wrap: inherit;
+	align-items: center;
+	justify-content: center;
+	width: 33%;
+	height: 200px;
+}
+
+.navbar-brand {
+	position: absolute;
+	padding-left: 16px;
+}

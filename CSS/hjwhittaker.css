@@ -1,0 +1,312 @@
+/*
+ * Globals
+ */
+
+/* Custom buttons */
+
+.btn-secondary {
+  color: #333;
+  transition: box-shadow .25s ease-in-out, background-color .25s ease-in-out, color .25s ease-in-out, text-shadow .25s ease-in-out;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 10px 10px 0px #000;
+  transition: box-shadow .25s ease-in-out, background-color .25s ease-in-out, color .25s ease-in-out, text-shadow .25s ease-in-out;
+}
+
+.btn-container {
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.arrow {
+  color: #ffffff;
+  background-color: #f6f3ed;
+  margin: 1em 0;
+}
+
+.arrow::after {
+    display: inline-block;
+    padding-left: 8px;
+    content: "\0279E";
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.arrow:hover {
+    color: #000000;
+    background-color: #f6f3ed;
+}
+
+.arrow:hover::after {
+    -webkit-transform: translateX(4px);
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -o-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+.nav-button {
+  color: rgb(129, 129, 129)!important;
+  padding: .5rem!important;
+  background-color: rgba(255, 255, 255, 0)!important;
+  border: 2px solid rgb(129, 129, 129)!important;
+  border-radius: .3rem!important;
+  text-shadow: none;
+  transition: background-color .25s ease, color .25s ease, text-shadow .25s ease, border-color .25s ease;
+}
+
+.nav-button:hover {
+  color: rgb(0, 0, 0)!important;
+  background-color: rgb(255, 255, 255)!important;
+  border-color: white!important;
+  transition: background-color .25s ease, color .25s ease, text-shadow .25s ease, border-color .25s ease;
+}
+
+/*
+ * Base structure
+ */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  cursor: none;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  text-shadow: 0 0 20px rgb(0 0 0), 0 0 20px rgb(0 0 0), 0 0 20px rgb(0 0 0), 0 0 20px rgb(0 0 0);
+}
+
+.px-3 {
+  text-align: left;
+  display: flex;
+  overflow: hidden;
+}
+
+::selection {
+  background: rgb(255, 0, 0, .7);
+}
+
+.red {
+  color: red;
+}
+
+.cover-container {
+  max-width: 50em;
+}
+
+/*
+ * Navbar
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  height: fit-content;
+}
+
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
+  color: white;
+}
+
+.nav-masthead .nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #f00;
+}
+
+/*
+ * Heading
+ */
+
+.heading-wide {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5rem;
+}
+
+/*
+ * Red Background
+ */
+
+.bg-red {
+  background-color: #f00;
+  border-width: 0px;
+  color: #fff;
+}
+
+/*
+ * hr line animation
+ */
+
+hr {
+  margin-left: 0;
+  background-color: #fff;
+  border: none;
+  opacity: 1;
+}
+
+hr:not([size]) {
+  height: 3px;
+  color: #fff;
+}
+
+.trans--grow {
+  -webkit-transition: width .5s ease;
+  transition: width .5s ease;
+  width: 0%;
+}
+
+.grow {
+  width: 100%;
+}
+
+/*
+ * Background Hole
+ */
+
+@import "compass/css3";
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.scene {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+  background: url("http://web.olivet.edu/~hjwhittaker/IMG/coverBackground.jpg") fixed;
+  background-size: cover;
+  padding: 0rem;
+  text-align: center;
+}
+
+.magic {
+  z-index: -1;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 10rem;
+  height: 10rem;
+  background-color: #000;
+  background: url("http://web.olivet.edu/~hjwhittaker/IMG/coverBackground4.jpg") fixed;
+  background-size: cover;
+  box-shadow: inset 10px 10px 5px rgb(0, 0, 0, .9);
+  border-radius: 50%;
+}
+
+/*
+ * Images
+ */
+
+.img-container {
+  align-items: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 15px;
+  display: flex;
+}
+
+/*
+ * Float
+ */
+
+.float-left {
+  float: left;
+  padding-right: 1.5rem;
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+  font-size: .75rem;
+  text-align: left;
+  color: rgb(187, 187, 187)!important;
+}
+
+/*
+ * Bootstrap Breakpoint Mods
+ */
+
+@media (max-width: 991.98px) {
+
+  .scene {
+    z-index: 5;
+  }
+
+  .nav {
+    padding-top: .5rem;
+  }
+
+  .scene_element {
+    padding: 0;
+  }
+
+  
+  .cover-container {
+    padding: 0!important;
+  }
+
+  .content-container {
+    padding: 2rem;
+  }
+
+  .nav-container {
+    padding: 15px 0;
+    background-color: black;
+    width: 100vw;
+    z-index: 5;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .footer {
+    padding-bottom: 114px;
+    padding-left: 15px;
+  }
+}
+
+/*
+ * Button load animation
+ */
+
+@keyframes buttonContainerAnimation{
+    0%{
+      transform: translateX(-50%);
+        }
+    100%{
+      transform: translateX(50%);
+        }
+}
+
+.btn-container{
+    animation: buttonContainerAnimation 2s forwards .25s ease;
+}
+
+@keyframes buttonAnimation{
+  0%{
+    transform: translateX(50%);
+      }
+  100%{
+    transform: translateX(-50%);
+      }
+}
+
+.btn-secondary{
+  animation: buttonAnimation 2s forwards .25s ease;
+  transform: translateX(50%);
+}
