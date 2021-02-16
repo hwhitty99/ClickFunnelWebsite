@@ -1,4 +1,4 @@
-# CLick Funnel Website
+# Click Funnel Website
 For this university project I was instructed to create a three-page website that would either act as a portfolio/resume or market a good or service that I offer.
 Since I already have a portfolio website, I went with the latter. I built the site to describe exactly what my [online clothing brand](https://lessthanthreeapparel.com/)
 stands for and why the viewer should buy something from me. It definitely doesn't look like your standard click funnel site, but I think the purpose is similar. I designed
