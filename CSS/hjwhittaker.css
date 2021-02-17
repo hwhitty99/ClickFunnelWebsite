@@ -6,14 +6,13 @@
 
 .btn-secondary {
   color: #333;
-  transition: box-shadow .25s ease-in-out, background-color .25s ease-in-out, color .25s ease-in-out, text-shadow .25s ease-in-out;
+  transition: all .25s ease;
 }
 
 .btn-secondary:hover, .btn-secondary:focus {
   color: #000;
   background-color: #fff;
   box-shadow: 10px 10px 0px #000;
-  transition: box-shadow .25s ease-in-out, background-color .25s ease-in-out, color .25s ease-in-out, text-shadow .25s ease-in-out;
 }
 
 .btn-container {
@@ -58,14 +57,13 @@
   border: 2px solid rgb(129, 129, 129)!important;
   border-radius: .3rem!important;
   text-shadow: none;
-  transition: background-color .25s ease, color .25s ease, text-shadow .25s ease, border-color .25s ease;
+  transition: all .25s ease;
 }
 
 .nav-button:hover {
   color: rgb(0, 0, 0)!important;
   background-color: rgb(255, 255, 255)!important;
   border-color: white!important;
-  transition: background-color .25s ease, color .25s ease, text-shadow .25s ease, border-color .25s ease;
 }
 
 /*
