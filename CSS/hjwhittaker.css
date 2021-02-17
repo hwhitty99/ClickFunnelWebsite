@@ -73,6 +73,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   cursor: none;
+  overflow: hidden;
 }
 
 p {
