@@ -10,4 +10,4 @@ the main website and my Instagram. I did this by using similar colors, fonts, an
 - How to use the power of Bootstrap CSS to make a responsive web design from desktop to mobile.
 - How to animate multiple elements through CSS animations, jQuery, and smoothState
 
-![mockup](C:\Users\thewh\Desktop\ART-365\mockup2.0Final.jpg)
+![mockup2 0Final](https://user-images.githubusercontent.com/33633958/109109672-54697b80-76fb-11eb-9bcf-7c4811fb77e2.jpg)
