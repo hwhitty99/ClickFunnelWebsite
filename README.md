@@ -9,3 +9,5 @@ the main website and my Instagram. I did this by using similar colors, fonts, an
 - How to write my own HTML, CSS, and JS in VS Code and implement other developers's from CodePen, Stack Overflow, etc.
 - How to use the power of Bootstrap CSS to make a responsive web design from desktop to mobile.
 - How to animate multiple elements through CSS animations, jQuery, and smoothState
+
+![mockup](C:\Users\thewh\Desktop\ART-365\mockup2.0Final.jpg)
